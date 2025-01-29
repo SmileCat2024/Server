@@ -55,5 +55,5 @@ app.get('/api/mission_info_list',(req, res)=>{
 
 // 启动服务器
 app.listen(port, () => {
-    console.log(`Server running at http://localhost:${port}/`);
+    console.log(`Server is running at http://localhost:${port}/`);
 });
